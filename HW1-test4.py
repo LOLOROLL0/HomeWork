@@ -8,4 +8,4 @@ while a != 0 and b != 0:
         b %= a
 
 gcd = a + b
-print("НОД = ",gcd)
+print("NOD:",gcd)
