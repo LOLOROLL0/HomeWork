@@ -1,9 +1,9 @@
-c, d = 0, 1
-for i in range(int(input())):
-    a, b = int(input()), int(input())
-    c = c * b + a * d
-    d = b * d
-x, y = c, d
-while y > 0:
-    x, y = y, x % y
-print(c // x, '/', d // x, sep='')
+a = int(input())
+j = 0
+for i in range (1,a + 1):
+    if a % i == 0:
+        j = j + 1
+        print(i, end="")
+if j == 2 :
+    print("")
+    print("AHTUNG")
